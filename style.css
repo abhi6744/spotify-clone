@@ -116,6 +116,7 @@
     height: 170px;
     margin-top: 30px;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .sidebar-scroll .inside-box-2{
@@ -205,7 +206,6 @@
 }
 .main-section{
     margin-top: 8px;
-    width:1120px ;
     height: 616px;
     background-color: #1d1d1d;
     border-radius: 10px;
@@ -538,7 +538,6 @@
 #down{
     display: flex;
     height: 60px;
-    width: 1472px;
     margin: 630px 8px 8px 8px;
     background:linear-gradient(to right,#ae2896,#509bf5);
     position: fixed;
