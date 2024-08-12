@@ -207,11 +207,13 @@
 .main-section{
     margin-top: 8px;
     height: 616px;
+    width: 1147px;
     background-color: #1d1d1d;
     border-radius: 10px;
     overflow-y: auto;
     overflow-x: hidden;
-    margin-left: -18px;
+    margin-right: 8px;
+    margin-left: -20px;
     
 } 
 .main-section .login{
@@ -406,6 +408,7 @@
     overflow: hidden;
     margin-right: 8px;
     margin-top: -5px;
+    justify-content: space-evenly;
 }
 .playlist .popular-albums .cards .items{
     background-color:transparent;
@@ -538,6 +541,7 @@
 #down{
     display: flex;
     height: 60px;
+    width: 1500px;
     margin: 630px 8px 8px 8px;
     background:linear-gradient(to right,#ae2896,#509bf5);
     position: fixed;
